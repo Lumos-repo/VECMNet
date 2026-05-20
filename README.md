@@ -5,10 +5,9 @@ VECMNet is a text-to-image person re-identification framework based on Variation
 The task is Text-to-Image Person Re-identification (TIReID): given a natural-language pedestrian description, the model retrieves the matching person images from an image gallery. This codebase uses CLIP ViT-B/16 as the vision-language backbone, learns global and local cross-modal representations, and improves robustness under noisy image-text correspondences.
 
 ## Overview
-
-The framework contains three main modules:
+The framework of our work is illustrated as follows:
 <img width="4252" height="2250" alt="framework" src="https://github.com/user-attachments/assets/7470e15c-82c0-42b6-b72f-f7c7498734ca" />
-
+The framework contains three main modules:
 1. **VNM: Variational Noise Modeling**
 
    VNM computes per-sample image-text matching losses at both global and local scales. It then fits a two-component Variational Bayesian Gaussian Mixture Model to the loss distribution, allowing the training pipeline to separate clean image-text pairs from noisy pairs.
