@@ -7,6 +7,7 @@ The task is Text-to-Image Person Re-identification (TIReID): given a natural-lan
 ## Overview
 
 The framework contains three main modules:
+<img width="4252" height="2250" alt="framework" src="https://github.com/user-attachments/assets/7470e15c-82c0-42b6-b72f-f7c7498734ca" />
 
 1. **VNM: Variational Noise Modeling**
 
